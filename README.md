@@ -1,2 +1,6 @@
-# no.phone.wtf
-No. Phone. WTF!
+# No. Phone. WTF!
+
+
+## License
+
+Licensed under MIT. Do whatever you want.
