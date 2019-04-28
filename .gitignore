@@ -1,6 +1,3 @@
-.tmp
-s3_website.yml
-
 # Ignore hidden folders #
 # This takes care of .tmp, .sass-cache, and many others #
 .*/
