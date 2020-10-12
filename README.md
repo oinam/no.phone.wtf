@@ -10,4 +10,4 @@ Let's keep the line items short. If you have a good ideas, corrections, and edit
 
 ## License
 
-Licensed under MIT. Do whatever you want.
+Licensed under MIT.

@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>No. Phone. WTF!</title>
-
 <meta name="description" content="A “Distraction-Free Phone” life.">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<title>No. Phone. WTF!</title>
 
 <meta property="og:title" content="No. Phone. WTF!">
 <meta property="og:type" content="website">
@@ -15,58 +15,38 @@
 <meta property="og:image" content="https://no.phone.wtf/no-phone-wtf.jpg">
 
 <style>
-
-:root{
-  --font-size-base: 1.2em;
-  --font-size-h1: 1.5em;
-  --font-size-h2: 1.4em;
-  --font-size-h3: 1.3em;
-  --font-size-h4: 1.2em;
-  --font-size-h5: 1.1em;
-  --font-size-h6: 1.0em;
-
-  --color-bg: #eee;
-  --color-text: #555;
-
-  --text-line-height: 1.6;
-
-  --link-color: #0080ff;
-  --link-color-border: #4da6ff;
-}
-
   html {
-    background: var(--color-bg);
-    color: var(--color-text);
+    background: #eee;
+    color: #444;
   }
 
   body {
+    margin: auto;
     width: 90%;
-    max-width: 640px;
-    
-    margin: 2em auto;
+    max-width: 600px;
 
-    font-size: var(--font-size-base);
-    line-height: var(--text-line-height);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
-  a {
-    text-decoration: none;
-    color: var(--link-color);
-    border-bottom: 1px solid var(--link-color-border);
-  }
-
-  ul, ol {
+  ul,
+  ol {
     padding: 0;
     margin: 0 1em;
   }
 
-  .title {
-    padding: 0 1.2em;
-    font-size: var(--font-size-h1);
+  h1 {
+    font-size: 1.6rem;
+    padding: 1rem;
   }
 
-  .content {
-    padding: 1em 2em;
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  main {
+    padding: 2em;
     background: #fff;
 
     box-shadow: 0 0 2px #aaa;
@@ -74,37 +54,32 @@
   }
 
   footer {
-    padding: 0 0.2em;
+    padding: 1rem;
     margin: 0;
-
-    text-align: right;
-    font-size: small;
   }
-
 </style>
 </head>
+
 <body>
 
-<h1 class="title">No. Phone. WTF!</h1>
-
-<main class="content">
-  <p>
-    I chose a “Distraction-Free Phone” life.
-  </p>
-  <ol>
-    <li>My phone is always SILENT and on DND (“Do Not Disturb). Sorry, I didn’t hear the ring.</li>
-    <li>The first ring is enough; don’t call me repeatedly. I’ll call you back.</li>
-    <li>Email, Text Messages, WhatsApp, WeChat, are better alternatives.</li>
-    <li>No. Nothing is an urgency.</li>
-    <li>I reserve the right to avoid all unscheduled and unknown calls.</li>
-  </ol>
-</main>
-
-<footer>
-  <p>
-    <a href="//github.com/oinam/no.phone.wtf">Contribute/Source</a>. License MIT.
-  </p>
-</footer>
+  <h1>No. Phone. WTF!</h1>
+  
+  <main>
+    <h2>I chose a “Distraction-Free Phone” life.</h2>
+    <ol>
+      <li>My phone is always SILENT and on DND (Do Not Disturb).</li>
+      <li>The first ring is enough; don’t call me repeatedly. I’ll call you back.</li>
+      <li>Email and other forms of text messages are better alternatives.</li>
+      <li>No. Nothing is an urgency.</li>
+      <li>I reserve the right to avoid all unscheduled and unknown calls.</li>
+    </ol>
+  </main>
+  
+  <footer>
+    <p>
+      <small><a href="//github.com/oinam/no.phone.wtf">Contribute / Source</a>. License MIT.</small>
+    </p>
+  </footer>
 
 </body>
 </html>
