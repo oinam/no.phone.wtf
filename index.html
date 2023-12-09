@@ -15,57 +15,77 @@
 <meta property="og:image" content="https://phone.wtf/phone.wtf.jpg">
 
 <style>
+  :root {
+    /* Tailwind inspired */
+    --color-zinc-50: #fafafa;
+    --color-zinc-100: #f4f4f5;
+    --color-zinc-200: #e4e4e7;
+    --color-zinc-300: #d4d4d8;
+    --color-zinc-400: #a1a1aa;
+    --color-zinc-500: #71717a;
+    --color-zinc-600: #52525b;
+    --color-zinc-700: #3f3f46;
+    --color-zinc-800: #18181b;
+    --color-zinc-900: #18181b;
+
+    --font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', 'Roboto', Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-family-serif: 'Iowan Old Style', 'Apple Garamond', Baskerville, 'Times New Roman', 'Droid Serif', Times, 'Source Serif Pro', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+    --border-radius: 13px;
+  }
+
   html {
-    background: #eee;
-    color: #444;
+    background: var(--color-zinc-100);
   }
 
   body {
     margin: auto;
     width: 90%;
     max-width: 600px;
-
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    font-size: 1rem;
+    font-family: var(--font-family-serif);
+    font-size: 18px;
     line-height: 1.6;
+    color: var(--color-zinc-700);
   }
 
   ul,
   ol {
-    padding: 0;
-    margin: 0 1em;
+    padding: 0 0.5rem;
+    margin: 0 1rem;
   }
 
   h1 {
+    margin: 0;
+    padding: 2rem;
     font-size: 1.6rem;
-    padding: 1rem;
   }
 
   h2 {
-    margin-top: 0;
+    margin: 0;
+    padding: 0 0 1rem;
     font-size: 1.4rem;
   }
 
-  main {
-    padding: 2em;
-    background: #fff;
+  p {
+    font-size: 1rem;
+  }
 
-    box-shadow: 0 0 2px #aaa;
-    border-radius: 5px;
+  main {
+    padding: 1.6rem 2rem;
+    background: var(--color-zinc-50);
+    box-shadow: 0 10px 20px var(--color-zinc-200);
+    border-radius: var(--border-radius);
   }
 
   section {
     margin: 4em auto;
-    padding: 1em;
-    border-top:  1px solid #ccc;
-
-    color: #777;
+    padding: 1rem;
   }
 
   footer {
-    padding: 1rem;
     margin: 0;
-    border-top: 1px solid #ccc;
+    padding: 1rem 2rem;
+    font-family: var(--font-family-sans-serif);
   }
 </style>
 
@@ -78,13 +98,22 @@
   <main>
     <h2>I chose a “Distraction-Free Phone” life.</h2>
     <ol>
-      <li>My phone is always SILENT and on DND (Do Not Disturb).</li>
-      <li>The first ring is enough; don’t call me repeatedly. I’ll call you back.</li>
-      <li>Email and other forms of text messages are better alternatives.</li>
+      <li>Please call once; not repeatedly. I’ll call you back.</li>
+      <li>My phone is always silent and on DND (do not disturb).</li>
+      <li>Email and other forms of texts are preferred alternatives.</li>
+      <li>I prefer to avoid all unscheduled and unknown calls.</li>
       <li>No. Nothing is an urgency.</li>
-      <li>I reserve the right to avoid all unscheduled and unknown calls.</li>
     </ol>
   </main>
+
+  <!--
+
+    I need to re-think this.
+    The intelligent people at HackerNews think this is a privilege rambling.
+    Stick with a minimal simple messaging.
+
+    https://news.ycombinator.com/item?id=37228412
+    https://news.ycombinator.com/item?id=28258363
 
   <section>
     <h3>Society</h3>
@@ -105,6 +134,8 @@
       <li>Notifications, alerts, etc. should have sound disabled by default except for emergencies and government mandated global alerts.</li>
     </ol>
   </section>
+
+   -->
 
   <footer>
     <p>

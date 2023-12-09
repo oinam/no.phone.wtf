@@ -1,7 +1,6 @@
-# No. Phone. WTF!
+# Phone. WTF!
 
 Politely, point people to [phone.wtf](https://phone.wtf/) if you like to send a message why you enjoy a “Distraction-Free Phone” life.
-
 
 ## Contribute
 
